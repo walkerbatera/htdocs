@@ -1,0 +1,151 @@
+div.ex3 {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+  	overflow: scroll;
+}
+
+
+.link a:link{
+	  text-decoration: none;
+}
+
+.visited a:visited{
+	  color: #f7f7f7;
+}
+
+.linkLista a:link{
+	  text-decoration: none;
+	  color: black;
+}
+
+.visitedLista a:visited{
+	  color: black;
+}
+
+.active a:active{
+	  color: gray;
+}
+
+.tabulacao{
+	text-indent: 50px;
+}
+
+.titulo{
+	text-shadow: 2px 2px 4px #000000; 
+	text-align:center;
+	font-style: italic;
+	color: #f7f7f7;
+}
+
+body {
+	background-color: #edce80;
+  	background-image: url("img/dragon-ball-background.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+
+header {
+	position: static;
+	background-color: #edce80;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 10px;
+	border: solid 2px #a66928;
+	border-radius: 50px;
+	text-align: center;
+	font-family: "ink free";
+ 	font-style: italic;
+ 	font-size: 1em;
+ 	color: #f7f7f7;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+nav{
+	position: fixed;
+	float: left;
+	width: 17%;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 15px;
+	background-color: #edce80;
+	border-radius: 5px 50px;
+	border: solid 2px #a66928;
+ 	color: #f7f7f7;
+	font-family: "ink free";
+	font-size: 18px;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+main{
+	position: relative;
+	float: right;
+	width: 73%;
+	background-color: #edce80;
+	border: solid 2px #a66928;
+	font-family: calibri;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+aside{
+	position: relative;
+	float: left;
+	width: 20%;
+	margin-right: 10px;
+}
+
+article{
+	position: relative;
+	float: right;
+	font-family: calibri;
+	width: 70%;
+	margin-right: 10px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+table{
+	position: static;
+	float: right;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	border: 1px solid #a66928;
+}
+
+th, td {
+  padding: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: #a66928;
+}
+
+footer{
+	position: static;
+	text-align: center;
+	background-color: #edce80;
+	border: solid 2px #a66928;
+	text-shadow: 2px 2px 4px #000000;	
+	padding:10px;
+	border-radius: 5px;
+	clear: both;
+	margin-left:20px; 
+	margin-right:20px;
+ 	font-size: 1.1em;
+ 	font-family: "ink free";
+	color: #f7f7f7;
+}
