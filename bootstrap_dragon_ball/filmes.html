@@ -1,0 +1,707 @@
+<html>
+
+<head>
+    <title>Universo Dragon Ball - Filmes</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Conteúdo que abrange o universo de Dragon Ball" />
+    <meta name="author" content="Walker Bonfim" />
+    <meta name="keywords" content="dragon ball" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="db.ico"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-sm bg-warning navbar-warning fixed-top" style="margin-bottom: 0px">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html">Animes</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="filmes.html">Filmes</a>
+            </li>
+            <ul class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#contato" data-toggle="modal"
+                data-target="#contato">Contato</a>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Usuario
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Perfil</a>
+                      <a class="dropdown-item" href="#">Configurações</a>
+                      <a class="dropdown-item" href="#">Sair</a>
+                    </div>
+                  </div>
+
+        </ul>
+    </nav>
+</header><br><br>
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(function () {
+  $('.example-popover').popover({
+    container: 'body'
+  })
+})
+</script>
+<div class="modal fade" id="contato" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Envie uma mensagem para nós!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Para:</label>
+                  <input type="text" class="form-control" id="recipient-name" value="email@email.com">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Mensagem:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true" title="Sua opinião é importante para nós.">
+                Enviar mensagem
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+<body>
+    <div class="container" style="flex: 1 0 auto;"><br>
+        <div class="card bg-light">
+            <div class="card-body">
+                <h4 class="card-title">Filmes de Dragon Ball </h4>
+                <h6 class="card-subtitle mb-2 text-muted">OBS: A maior parte dos títulos não são canônicos, em geral
+                    representam uma versão alternativa da série ou histórias paralelas!</h6>
+            </div>
+        </div><br>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Movie 1: Shen Long no Densetsu</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                            data-target="#Dragon Ball Movie 1: Shen Long no Densetsu" >Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Movie 2: Majinjou no Nemurihime</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Movie 2: Majinjou no Nemurihime">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Movie 3: Makafushigi Daibouken</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Movie 3: Makafushigi Daibouken">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Movie 4: Saikyou e no Michi</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Movie 4: Saikyou e no Michi">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 01: Ora no Gohan wo Kaese!!</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 01: Ora no Gohan wo Kaese!!">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 02: Kono Yo de Ichiban Tsuyoi Yatsu</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 02: Kono Yo de Ichiban Tsuyoi Yatsu">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 03: Chikyuu Marugoto Choukessen</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 03: Chikyuu Marugoto Choukessen">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 04: Super Saiyajin da Son Gokuu</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 04: Super Saiyajin da Son Gokuu">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 05: Tobikkiri no Saikyou tai Saikyou</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 05: Tobikkiri no Saikyou tai Saikyou">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 06: Gekitotsu!! 100-oku Power no Senshi-tachi</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 06: Gekitotsu!! 100-oku Power no Senshi-tachi">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 07: Kyokugen Battle!! Sandai Super Saiyajin</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 07: Kyokugen Battle!! Sandai Super Saiyajin">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 08: Moetsukiro!! Nessen, Ressen, Chougekisen</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 08: Moetsukiro!! Nessen, Ressen, Chougekisen">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 09: Ginga Girigiri!! Bucchigiri no Sugoi Yatsu</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 09: Ginga Girigiri!! Bucchigiri no Sugoi Yatsu">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 10: Kiken na Futari! Super Senshi wa Nemurenai</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 10: Kiken na Futari! Super Senshi wa Nemurenai">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 11: Super Senshi Gekiha!! Katsu no wa Ore da</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 11: Super Senshi Gekiha!! Katsu no wa Ore dau">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 12: Fukkatsu no Fusion!! Gokuu to Vegeta</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 12: Fukkatsu no Fusion!! Gokuu to Vegeta">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 13: Ryuuken Bakuhatsu!! Gokuu ga Yaraneba Dare ga Yaru</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 13: Ryuuken Bakuhatsu!! Gokuu ga Yaraneba Dare ga Yaru">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 14: Kami to Kami</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 14: Kami to Kami">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Z Movie 15: Fukkatsu no "F"</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Z Movie 15: Fukkatsu no 'F'">Detalhes</button></div>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item">
+                <div class="row">
+                    <div class="col-10">Dragon Ball Super Movie: Broly</div>
+                    <div class="col"><button class="btn btn-info" data-toggle="modal"
+                        data-target="#Dragon Ball Super Movie: Broly">Detalhes</button></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Movie 1: Shen Long no Densetsu" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://media.fstatic.com/yOB3AbJS_PEh2QyZW14BEQE-ygs=/640x480/smart/media/movies/covers/2012/04/77eb4e743dc2e2c1a7df67ccff055720.jpg"
+                        style="width: 150px; height: 150px;">
+                    Dragon Ball Movie 1: Shen Long no Densetsu
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" 
+                        href="https://myanimelist.net/anime/502/Dragon_Ball_Movie_1__Shen_Long_no_Densetsu?q=Dragon%20Ball%20Movie%201%3A%20Shen%20Long%20no%20Densetsu">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Movie 2: Majinjou no Nemurihime" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.anime-planet.com/images/anime/covers/dragon-ball-movie-2-sleeping-princess-in-devils-castle-1500.jpg?t=1405965935"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Movie 2: Majinjou no Nemurihime
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/891/Dragon_Ball_Movie_2__Majinjou_no_Nemurihime">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Movie 3: Makafushigi Daibouken" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://cdn.myanimelist.net/images/anime/1825/90341l.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Movie 3: Makafushigi Daibouken
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/892/Dragon_Ball_Movie_3__Makafushigi_Daibouken">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Movie 4: Saikyou e no Michi" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://www.infoanime.com.br/poster/1996/dragonballm4.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Movie 4: Saikyou e no Michi
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/893/Dragon_Ball_Movie_4__Saikyou_e_no_Michi">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Dragon Ball Z Movie 01: Ora no Gohan wo Kaese!!" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://2.bp.blogspot.com/-ZBTOCDfhIl8/UYPd_ycHPdI/AAAAAAAABLM/z8-iYtDOzlk/s640/2.1+Filme+01+-+Devolva-me+Gohan(Zona+Mortal)+(2).jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 01: Ora no Gohan wo Kaese!!
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/894/Dragon_Ball_Z_Movie_01__Ora_no_Gohan_wo_Kaese?q=Dragon%20Ball%20Z%20Movie%2001%3A%20Ora%20no%20Gohan%20wo%20Kaese!!">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 02: Kono Yo de Ichiban Tsuyoi Yatsu" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://akumanimes.com/wp-content/uploads/Dragon-Ball-A-%C3%81rvore-do-Poder.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 02: Kono Yo de Ichiban Tsuyoi Yatsu
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/895/Dragon_Ball_Z_Movie_02__Kono_Yo_de_Ichiban_Tsuyoi_Yatsu?q=Dragon%20Ball%20Z%20Movie%2002%3A%20Kono%20Yo%20de%20Ichiban%20Tsuyoi%20Yatsu">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 04: Super Saiyajin da Son Gokuu" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src=" https://image.tmdb.org/t/p/w185/dvdoPxlmXWCaJR50fbCM3FBjFnU.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 04: Super Saiyajin da Son Gokuu
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/897/Dragon_Ball_Z_Movie_04__Super_Saiyajin_da_Son_Gokuu?q=Dragon%20Ball%20Z%20Movie%2004%3A%20Super%20Saiyajin%20da%20Son%20Gokuu">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 05: Tobikkiri no Saikyou tai Saikyou" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://3.bp.blogspot.com/-L9ngy22L-rQ/WV1H4X4sEVI/AAAAAAAABH8/g732HrPTL5QBxPsjf37RQtW3Ed5XNJNIACLcBGAs/s1600/Dragon%2BBall%2BZ%2B-%2BFilme%2B5.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 05: Tobikkiri no Saikyou tai Saikyou
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/898/Dragon_Ball_Z_Movie_05__Tobikkiri_no_Saikyou_tai_Saikyou?q=Dragon%20Ball%20Z%20Movie%2005%3A%20Tobikkiri%20no%20Saikyou%20tai%20Saikyou">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 06: Gekitotsu!! 100-oku Power no Senshi-tachi" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://1.bp.blogspot.com/-5G3flIvhVcs/WV5RSG0zoKI/AAAAAAAABIc/jrPTSph5oYUFSfJRRgjTD8vy6_zZBGYSgCLcBGAs/s1600/Dragon%2BBall%2BZ%2B-%2BFilme%2B6.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 06: Gekitotsu!! 100-oku Power no Senshi-tachi
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/899/Dragon_Ball_Z_Movie_06__Gekitotsu_100-oku_Power_no_Senshi-tachi?q=Dragon%20Ball%20Z%20Movie%2006%3A%20Gekitotsu!!%20100-oku%20Power%20no%20Senshi-tachi">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 07: Kyokugen Battle!! Sandai Super Saiyajin" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="http://1.bp.blogspot.com/_tW5TunwL010/S-4IyhlSWPI/AAAAAAAAEfM/hZAnVmT4tM4/s1600/DB+O+Retorno+dos+Andr%C3%B3ides.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 07: Kyokugen Battle!! Sandai Super Saiyajin
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/900/Dragon_Ball_Z_Movie_07__Kyokugen_Battle_Sandai_Super_Saiyajin?q=Dragon%20Ball%20Z%20Movie%2007%3A%20Kyokugen%20Battle!!%20Sandai%20Super%20Saiyajin">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 08: Moetsukiro!! Nessen, Ressen, Chougekisen" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://2.bp.blogspot.com/-l24t1obinhE/WV5ZkkHa1PI/AAAAAAAABJE/xk5dI0Y7NDwE10nuywJMBFyDbHEMugZGwCLcBGAs/s1600/Dragon%2BBall%2BZ%2B-%2BFilme%2B8.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 08: Moetsukiro!! Nessen, Ressen, Chougekisen
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/901/Dragon_Ball_Z_Movie_08__Moetsukiro_Nessen_Ressen_Chougekisen?q=Dragon%20Ball%20Z%20Movie%2008%3A%20Moetsukiro!!%20Nessen%2C%20Ressen%2C%20Chougekisen">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 09: Ginga Girigiri!! Bucchigiri no Sugoi Yatsu" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://image.tmdb.org/t/p/w342/yufW8vCgxW2o3egUfY7ivN5rC9B.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 09: Ginga Girigiri!! Bucchigiri no Sugoi Yatsu
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/902/Dragon_Ball_Z_Movie_09__Ginga_Girigiri_Bucchigiri_no_Sugoi_Yatsu?q=Dragon%20Ball%20Z%20Movie%2009%3A%20Ginga%20Girigiri!!%20Bucchigiri%20no%20Sugoi%20Yatsu">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 10: Kiken na Futari! Super Senshi wa Nemurenai" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i.pinimg.com/originals/db/c7/53/dbc753edd1e173ef35e6515ddf4df7e3.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 10: Kiken na Futari! Super Senshi wa Nemurenai
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/903/Dragon_Ball_Z_Movie_10__Kiken_na_Futari_Super_Senshi_wa_Nemurenai?q=Dragon%20Ball%20Z%20Movie%2010%3A%20Kiken%20na%20Futari!%20Super%20Senshi%20wa%20Nemurenai">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 11: Super Senshi Gekiha!! Katsu no wa Ore da" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://2.bp.blogspot.com/-iMakJNsd-qk/WV_kf9baQSI/AAAAAAAABKA/lx-yP28tOpIqE1fkSxUdkABwkUm604OQQCLcBGAs/s1600/Dragon%2Bball%2BZ%2BFilme%2B11.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 11: Super Senshi Gekiha!! Katsu no wa Ore da
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/904/Dragon_Ball_Z_Movie_11__Super_Senshi_Gekiha_Katsu_no_wa_Ore_da?q=Dragon%20Ball%20Z%20Movie%2011%3A%20Super%20Senshi%20Gekiha!!%20Katsu%20no%20wa%20Ore%20da">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 12: Fukkatsu no Fusion!! Gokuu to Vegeta" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://media.fstatic.com/gOGubjfrDCxk6_NQzwwN5uWn4Sc=/fit-in/290x478/smart/media/movies/covers/2014/11/dragon-ball-z-filme-12-uma-nova-fusao_t14285_2.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 12: Fukkatsu no Fusion!! Gokuu to Vegeta
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/905/Dragon_Ball_Z_Movie_12__Fukkatsu_no_Fusion_Gokuu_to_Vegeta?q=Dragon%20Ball%20Z%20Movie%2012%3A%20Fukkatsu%20no%20Fusion!!%20Gokuu%20to%20Vegeta">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 13: Ryuuken Bakuhatsu!! Gokuu ga Yaraneba Dare ga Yaru" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://3.bp.blogspot.com/-PiGMx1bLlUw/WWADoVYRfHI/AAAAAAAABKk/OE2bKlnJCTwSnAns86f6rzSEYTT_x1p4wCLcBGAs/s1600/Dragon%2Bball%2BZ%2BFilme%2B13.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 13: Ryuuken Bakuhatsu!! Gokuu ga Yaraneba Dare ga Yaru
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/906/Dragon_Ball_Z_Movie_13__Ryuuken_Bakuhatsu_Gokuu_ga_Yaraneba_Dare_ga_Yaru?q=Dragon%20Ball%20Z%20Movie%2013%3A%20Ryuuken%20Bakuhatsu!!%20Gokuu%20ga%20Yaraneba%20Dare%20ga%20Yaru">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 14: Kami to Kami" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://3.bp.blogspot.com/-8CH5xHOP934/WWAG1fPAM9I/AAAAAAAABK4/ciqmd9p8_r4XfWtOWIrZ8Pkd9LJbfvo6wCLcBGAs/s1600/Dragon%2Bball%2BZ%2BFilme%2B14.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 14: Kami to Kami
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/14837/Dragon_Ball_Z_Movie_14__Kami_to_Kami?q=Dragon%20Ball%20Z%20Movie%2014%3A%20Kami%20to%20Kami">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Z Movie 15: Fukkatsu no 'F'" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://1.bp.blogspot.com/-MtiTFfc3-WY/WWAM6jDNnSI/AAAAAAAABLU/ZH92tTDqNd01M5pFAJThv8JAAtti6d6FACLcBGAs/s1600/Dragon%2Bball%2BZ%2BFilme%2B15.png"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Z Movie 15: Fukkatsu no "F"
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/25389/Dragon_Ball_Z_Movie_15__Fukkatsu_no_F?q=Dragon%20Ball%20Z%20Movie%2015%3A%20Fukkatsu%20no%20%22F%22">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dragon Ball Super Movie: Broly" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Detalhes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://ingresso-a.akamaihd.net/img/cinema/cartaz/22044-cartaz.jpg"
+                        style="width: 150px; height: 150px;">
+                        Dragon Ball Super Movie: Broly
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary"
+                        href="https://myanimelist.net/anime/36946/Dragon_Ball_Super_Movie__Broly?q=Dragon%20Ball%20Super%20Movie%3A%20Broly">Ir
+                        ao Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<br><br>
+<footer class="footer navbar-fixed-bottom py-4 bg-warning text-black mt-auto py-3">
+    <div class="container text-center">
+        <small>Copyright &copy; Walker Bonfim</small><br>
+        <small>Code Complete in: <a
+                href="https://github.com/walkerbatera/htdocs">https://github.com/walkerbatera/htdocs</a></small>
+    </div>
+</footer>
+
+</html>
