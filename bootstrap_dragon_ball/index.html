@@ -1,0 +1,350 @@
+<html>
+
+<head>
+    <title>Universo Dragon Ball - Home</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Conteúdo que abrange o universo de Dragon Ball" />
+    <meta name="author" content="Walker Bonfim" />
+    <meta name="keywords" content="dragon ball" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="db.ico"/> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-sm bg-warning navbar-warning fixed-top" style="margin-bottom: 0px">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Animes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="filmes.html">Filmes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato" data-toggle="modal" data-target="#contato">Contato</a>
+            </li>
+            <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Usuario
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Perfil</a>
+                  <a class="dropdown-item" href="#">Configurações</a>
+                  <a class="dropdown-item" href="#">Sair</a>
+                </div>
+              </div>
+
+        </ul>
+    </nav>
+</header><br><br>
+<script type="text/javascript">
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    $(function () {
+        $('.example-popover').popover({
+            container: 'body'
+        })
+    })
+</script>
+<div class="modal fade" id="contato" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Envie uma mensagem para nós!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Para:</label>
+                        <input type="text" class="form-control" id="recipient-name" value="email@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Mensagem:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                    title="Sua opinião é importante para nós.">
+                    Enviar mensagem
+                </button><div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div class="container" style="flex: 1 0 auto;"><br>
+        <div class="card bg-light">
+            <div class="card-body">
+                <h4 class="card-title">Dragon Ball</h4>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-home"
+                            role="tab" aria-controls="v-pills-settings" aria-selected="true">Home</a>
+                        <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-db" role="tab"
+                            aria-controls="v-pills-home" aria-selected="false">Dragon Ball</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-dbz" role="tab"
+                            aria-controls="v-pills-profile" aria-selected="false">Dragon Ball Z</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-dbgt" role="tab"
+                            aria-controls="v-pills-messages" aria-selected="false">Dragon Ball GT</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-dbs" role="tab"
+                            aria-controls="v-pills-settings" aria-selected="false">Dragon Ball Super</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-dbh" role="tab"
+                            aria-controls="v-pills-settings" aria-selected="false">Dragon Ball Heroes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="https://cdn.myanimelist.net/images/manga/2/54545.jpg"
+                                    title="Mangá Dragon Ball" alt="Capa do primeiro volume do mangá de Dragon Ball"
+                                    style="width: 100px;height:150;">
+                            </div>
+                            <div class="col-sm">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dragon Ball</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Sobre</h6>
+                                        <p class="card-text">
+                                            <b><i>Dragon Ball</i></b> é uma franquia de mídia japonesa criada por Akira
+                                            Toriyama. Originalmente iniciada com uma série de mangá que foi escrita e
+                                            ilustrada por Toriyama, teve os seus capítulos serializados na revista
+                                            Weekly Shonen Jump de 1984 a 1995. Dragon Ball foi inicialmente inspirado
+                                            pelo clássico romance chinês Jornada ao Oeste. A série segue as aventuras do
+                                            protagonista, Son Goku, desde sua infância até a idade adulta enquanto ele
+                                            treina artes marciais e explora o mundo em busca de sete esferas conhecidas
+                                            como as Esferas do Dragão, que convocam um dragão que concede um desejo
+                                            quando reunidas. Ao longo de sua jornada, Goku faz vários amigos e luta
+                                            contra uma grande variedade de vilões, muitos dos quais também procuram as
+                                            Esferas do Dragão.</p>
+                                        <p class="fonte"><sup>(<b>Fonte:</b><a
+                                                    href="https://pt.wikipedia.org/wiki/Dragon_Ball_(s%C3%A9rie)"
+                                                    target="_blank"> Wikipédia</a>)</sup></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-db" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="https://cdn.myanimelist.net/images/anime/1887/92364.jpg" title="Dragon Ball"
+                                    alt="Dragon Ball - 1986" style="width: 100px;height:150;">
+                            </div>
+                            <div class="col-sm">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dragon Ball (Clássico)</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Sobre</h6>
+                                        <p class="card-text">
+                                            Son Goku é um garoto que vive sozinho na floresta, até que uma garota
+                                            chamada Bulma o encontra em sua busca por um conjunto de objetos mágicos
+                                            chamados "Dragon Balls". Os artefatos concedem um desejo a quem coleciona
+                                            todos os sete, Bulma espera reuni-los e desejar um namorado perfeito. Por
+                                            acaso Goku está na posse de uma esfera do dragão, mas infelizmente para
+                                            Bulma, ele se recusa a se separar dela, então ela faz um acordo: ele pode
+                                            acompanha-la sua jornada se permitir que ela pegue emprestado o poder da
+                                            esfera de dragão. Com isso, os dois partem em uma jornada.</p>
+                                        <p class="tabulacao">Eles não viajam sozinhos. No caminho, eles encontram o
+                                            velho Mestre Kame e seu discípulo Kuririn, com quem Goku treina para se
+                                            tornar um artista marcial mais forte para o próximo Torneio Mundial de Artes
+                                            Marciais. No entanto, nem tudo é divertido. A capacidade de realizar
+                                            qualquer desejo é poderosa, e há outros que fariam muito pior do que apenas
+                                            desejar um namorado. Para impedir aqueles que tentam abusar do poder
+                                            lendário, eles treinam para se tornarem lutadores mais fortes, usando sua
+                                            força recém-descoberta para ajudar as pessoas ao seu redor no caminho.
+                                            <p><sub><i>(<b>Fonte:</b><a
+                                                            href="https://myanimelist.net/anime/223/Dragon_Ball?q=dra"
+                                                            target="_blank"> MyAnimeList</a>)</i></sub></p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-dbz" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="https://cdn.myanimelist.net/images/anime/6/20936.jpg" title="Dragon Ball Z"
+                                    alt="Dragon Ball Z - 1989" style="width: 100px;height:150;">
+                            </div>
+                            <div class="col-sm">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dragon Ball Z</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Sobre</h6>
+                                        <p class="card-text">
+                                            Cinco anos depois de vencer o torneio Mundial de Artes Marciais, Goku agora
+                                            está vivendo uma vida pacífica com sua esposa e filho. Isso muda com a
+                                            chegada de um inimigo misterioso chamado Raditz, que se apresenta como o
+                                            irmão há muito perdido de Goku. Ele revela que Gokuu é um guerreiro da raça
+                                            Saiyajin, uma vez poderosa, mas agora praticamente extinta, cujo mundo natal
+                                            foi completamente aniquilado. Quando foi enviado para a Terra quando bebê, o
+                                            único objetivo de Goku era conquistar e destruir o planeta; mas depois de
+                                            sofrer amnésia devido a um ferimento na cabeça, sua natureza violenta e
+                                            selvagem mudou e, em vez disso, foi criado como um garoto gentil e educado,
+                                            agora lutando para proteger os outros.
+                                        </p>
+                                        <p class="tabulacao">Com sua tentativa fracassada de recrutar Gokuu como um
+                                            aliado, Raditz avisa os amigos de Goku sobre uma nova ameaça que está se
+                                            aproximando rapidamente da Terra - uma que poderia mergulhar a Terra em um
+                                            conflito intergalático e fazer com que os próprios céus tremessem. A guerra
+                                            será travada ao longo das sete esferas do dragão, e só os mais fortes
+                                            sobrevivem em <b><i>Dragon Ball Z</i></b>.
+                                        </p>
+                                        <p><sub><i>(<b>Fonte:</b><a
+                                                        href="https://myanimelist.net/anime/813/Dragon_Ball_Z"
+                                                        target="_blank"> MyAnimeList</a>)</i></sub>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-dbgt" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="https://cdn.myanimelist.net/images/anime/11/20727.jpg" title="Dragon Ball GT"
+                                    alt="Dragon Ball GT - 1996" style="width: 100px;height:150;">
+                            </div>
+                            <div class="col-sm">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dragon Ball GT</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Sobre</h6>
+                                        <p class="card-text">
+                                            O Imperador Pilaf finalmente colocou as mãos nas Esferas do Dragão da
+                                            Estrela Negra, depois de anos de busca, que são duas vezes mais poderosas
+                                            que as normais da Terra. Pilaf está prestes a realizar seu desejo de dominar
+                                            o mundo quando é interrompido por Son Goku. Como resultado, Pilaf ignora seu
+                                            desejo e acidentalmente transforma Goku em uma criança.</p>
+                                        <p class="tabulacao">Depois que o desejo é concedido, as Esferas do Dragão da
+                                            Estrela Negra se espalham pela galáxia. No entanto, Goku descobre que eles
+                                            farão a Terra explodir, a menos que todos sejam trazidos de volta dentro de
+                                            um ano. Unindo-se à Trunks e sua neta Pan, Goku parte em uma aventura pelo
+                                            universo para encontrar as Esferas do Dragão da Estrela Negra e salvar seu
+                                            planeta da destruição.</p>
+                                        <p class="tabulacao">Dragon Ball GT foi produzido pela Toei Animation com um
+                                            pequeno envolvimento de Akira Toriyama (autor da série original), que ajudou
+                                            a criar a premissa do programa e projetou a maioria dos novos vilões e
+                                            principais protagonistas. Toriyama se referiu à série como "uma grande
+                                            história paralela da <b><i>Dragon Ball</i></b> original".
+                                        </p>
+                                        <p><sub><i>(<b>Fonte:</b><a
+                                                        href="https://myanimelist.net/anime/225/Dragon_Ball_GT"
+                                                        target="_blank"> MyAnimeList</a>)</i></sub>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-dbs" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="https://cdn.myanimelist.net/images/anime/7/74606.jpg"
+                                    title="Dragon Ball Super" alt="Dragon Ball Super - 2015"
+                                    style="width: 100px;height:150;">
+                            </div>
+                            <div class="col-sm">
+                                <div class="card bg-light">
+                                    <div class="card-body ">
+                                        <h5 class="card-title">Dragon Ball Super</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Sobre</h6>
+                                        <p class="card-text">
+                                            <b><i>Dragon Ball Super</i></b></h3>
+                                            <p class="tabulacao">Sete anos após os eventos de <b><i>Dragon Ball
+                                                        Z</i></b>, a Terra está em paz e seu povo vive livre de
+                                                quaisquer perigos ocultos no universo. No entanto, essa paz tem vida
+                                                curta; um mal adormecido desperta nas trevas da galáxia: Beerus, o
+                                                implacável Deus da Destruição.</p>
+                                            <p class="tabulacao">Perturbado por uma profecia de que ele será derrotado
+                                                por um "Deus Super Saiyajin", Beerus e seu assistente angelical Whis
+                                                começam a procurar no universo por esse ser misterioso. Em pouco tempo,
+                                                eles chegam à Terra, onde encontram Gokuu Son, um dos guerreiros mais
+                                                poderosos do planeta, e seus amigos igualmente poderosos.</p>
+                                            <p><i>(<b>Fonte:</b><a
+                                                        href="https://myanimelist.net/anime/30694/Dragon_Ball_Super"
+                                                        target="_blank"> MyAnimeList</a>)</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-dbh" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="https://cdn.myanimelist.net/images/anime/1480/92990.jpg"
+                                    title="Dragon Ball Heroes" alt="Dragon Ball Heroes - 2018"
+                                    style="width: 100px;height:150;">
+                            </div>
+                            <div class="col-sm">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dragon Ball Heroes</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Sobre</h6>
+                                        <p class="card-text">
+                                            <b><i>Dragon Ball Super</i></b></h3>
+                                            <p class="tabulacao">A trama envolve o misterioso Fu, que após sequestrar
+                                                Mirai Trunks, atrai Goku e Vegeta para o Prison Planet, uma área
+                                                experimental que Fu criou e encheu de fortes guerreiros de diferentes
+                                                planetas e épocas para forçá-los a um jogo onde eles devem coletar as
+                                                sete esferas do dragão se quiserem escapar.</p>
+                                            <p><sub><i>(<b>Fonte:</b><a
+                                                            href="https://myanimelist.net/anime/37885/Dragon_Ball_Heroes"
+                                                            target="_blank"> MyAnimeList</a>)</i></sub>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<br><br>
+<footer class="footer navbar-fixed-bottom py-4 bg-warning text-black mt-auto py-3">
+    <div class="container text-center">
+        <small>Copyright &copy; Walker Bonfim</small><br>
+        <small>Code Complete in: <a
+                href="https://github.com/walkerbatera/htdocs">https://github.com/walkerbatera/htdocs</a></small>
+    </div>
+</footer>
+
+</html>
